@@ -13,7 +13,9 @@
 ### fetch 함수
 fetch(request[,options]);
 --> fetch 함수의 첫번째 인자는 필수이며 Request 객체나 절대 경로 혹은 상대 경로형식의 URL문자열을 받을 수 있다.
+
 ------------
+
 --> fetch함수의 두번째 인자는 request에 대한 옵션 항목을 추가하는 개게지만 필수는 아님
 
 아래의 코드는 헤더의 쿠키를포함하여 이미지에 대한 POST를 요청하는 예제이다.
@@ -21,6 +23,7 @@ fetch("img/logo.png",{
     method : "POST",
     credentials: "include"
 });
+
 ------------
 
 서비스워커의 install 이벤트
